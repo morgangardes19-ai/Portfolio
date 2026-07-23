@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+@theme {
+  --color-bleu-texte-click-header: #5BDCEE;
+  --color-gris-texte-header: #bfc8d6;
+  --color-bleu-texte-hover-header: #a2f4fd;
+}
+
+.jetbrains-mono-regular {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-regular, p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
