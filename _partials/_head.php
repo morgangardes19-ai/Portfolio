@@ -19,7 +19,7 @@
 </head>
 
 <body class="flex flex-col px-4 bg-bg-page-tempo">
-    <header class="fixed flex flex-row gap-32 items-center justify-between border border-border-header rounded-[50px] backdrop-blur-xl px-4">
+    <header class="fixed flex flex-row gap-32 items-center justify-between border border-border-header rounded-[50px] backdrop-blur-xl w-full px-4">
         <!-- Ici : photo de profil -->
         <div class="flex flex-row gap-4 items-center ">
             <img src="../assets/images/photo-temporaire.jpg" class="rounded-[50%] border border-blue-500 w-16 h-16" alt="photo de profil">
