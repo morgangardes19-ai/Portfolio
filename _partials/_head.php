@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Morgan Gardès | Portfolio</title>
     <link href="../assets/styles/style.css" rel="stylesheet">
+    <script src="../assets/scripts/overlay-menu-burger-mobile.js" defer></script>
     <link rel="icon" href="../assets/images/bulles-favicon-32px.png">
     <!-- Police d'écriture : JetBrains Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,18 +18,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <header class="fixed">
+<body class="flex flex-col px-2 bg-bg-page-tempo">
+    <header class="fixed flex flex-row gap-32 items-center justify-between px-8 border border-border-header rounded-[50px] w-full backdrop-blur-xl">
         <!-- Ici : photo de profil -->
-        <div>
-            <div class="border border-radius-5">
-                <img src="" alt="photo de profil">
-            </div class="flex flex-row gap-2">
-            <p>Morgan Gardès</p>
+        <div class="flex flex-row gap-4 items-center ">
+            <img src="../assets/images/photo-temporaire.jpg" class="rounded-[50%] border border-blue-500 w-16 h-16" alt="photo de profil">
+            <a href=""></a>
+            <p class="hidden text-nom-profil-header lg:flex">Morgan Gardès</p>
         </div>
-        <nav class="flex flex-row gap-2">
+        <!-- Partie droite header version Mobile -->
+        <nav class="flex lg:hidden flex-row gap-2">
+            <img id="logo-burger" src="../assets/images/menu-burger.png" alt="menu hamburger">
+            <div id="overlay-burger">
+                <img id="croix-menu-burger" src="../assets/images/croix-32px.png" alt="logo croix">
+                <a class="text-gris-texte-header hover:text-bleu-texte-hover-header" href="">Profil</a>
+
+                <p class="text-gris-texte-header hover:text-bleu-texte-hover-header">Compétences</p>
+
+                <p class="text-gris-texte-header hover:text-bleu-texte-hover-header">Projets</p>
+
+                <p class="text-gris-texte-header hover:text-bleu-texte-hover-header">Contact</p>
+            </div>
+        </nav>
+        <!-- Partie droite header version PC -->
+        <nav class="hidden lg:flex flex-row gap-2">
             <div>
-                <p class="text-gris-texte-header hover:text-bleu-texte-hover-header">Profil</p>
+                <a class="text-gris-texte-header hover:text-bleu-texte-hover-header" href="">Profil</a>
             </div>
             <div>
                 <p class="text-gris-texte-header hover:text-bleu-texte-hover-header">Compétences</p>
