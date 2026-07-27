@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="bg-bg-page-tempo" lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -30,7 +30,7 @@
                 <div class="absolute inset-0 rounded-full border border-hover-cercle-profil
                     animate-[sonar-pulse_2s_ease-out_infinite]"></div>
                 <!-- Photo de profil -->
-                <div class="flex flex-row gap-4 items-center ">
+                <div class="flex flex-row gap-4 items-center">
                     <img src="../assets/images/photo-temporaire.jpg" class="relative z-10 rounded-full border-border-photo-profil w-14 h-14 hover:border-hover-cercle-profil border-2" alt="photo de profil">
                     <a href=""></a>
                     <p class="hidden text-nom-profil-header lg:flex">Morgan Gardès</p>

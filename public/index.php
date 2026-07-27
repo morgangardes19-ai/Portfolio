@@ -2,152 +2,266 @@
 
 
 
-    <main class="pt-40">
+<main class="pt-40">
 
+    <div>
         <div>
-            <div>
-                <p>// 01</p>
-                <h1 class="texte-[64px] text-white">MORGAN GARDÈS</h1>
-                <h3>Développeur Web</h3>
-                <p>Passionné par le développement web, je transforme des idées en expériences numériques fluides du premier pixel jusqu'au déploiement. Curieux et rigoureux, je plonge avec plaisir dans de nouveaux défis techniques. Chaque projet est une exploration vers plus de profondeur et de précision.</p>
-            </div>
-            <div>
-                <p>Frontend</p>
-                <p>Backend</p>
-                <p>Performance</p>
-                <p>Responsive</p>
-            </div>
+            <p>// 01</p>
+
+            <h1 class="font-mono text-4xl md:text-6xl font-bold text-white uppercase tracking-wider text-glow-cyan" style="opacity: 1; transform: none;">Morgan Gardès</h1>
+
+            <h3 class="font-mono text-cyan-300 text-lg mb-8 tracking-wide" style="opacity: 1; transform: none;">&gt; Développeur Web</h3>
+
+            <p>Passionné par le développement web, je transforme des idées en expériences numériques fluides du premier pixel jusqu'au déploiement. Curieux et rigoureux, je plonge avec plaisir dans de nouveaux défis techniques. Chaque projet est une exploration vers plus de profondeur et de précision.</p>
         </div>
-
-        <p>// 02</p>
-        <h2>COMPÉTENCES</h2>
-        <!-- Lien de téléchargement du CV -->
-
-        <div class="flex flex-row gap-4">
-            <!-- Bulles des différents Skills -->
-            <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-            <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-            <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-            <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-            <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-            <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div>
+            <p>Frontend</p>
+            <p>Backend</p>
+            <p>Performance</p>
+            <p>Responsive</p>
         </div>
+    </div>
 
-        <p>// 03</p>
-        <p>// Cliquez sur une bulle pour la faire éclater</p>
-        <p>Survolez un viewport pour explorer l'intégralité du site.</p>
+    <p>// 02</p>
+    <h2>COMPÉTENCES</h2>
+    <!-- Lien de téléchargement du CV -->
 
-        <h2>PROJETS</h2>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
 
-    </main>
+    <p>// 03</p>
+    <p>// Cliquez sur une bulle pour la faire éclater</p>
+    <p>Survolez un viewport pour explorer l'intégralité du site.</p>
+
+    <h2>PROJETS</h2>
+
+
+    div class="flex flex-row gap-4">
+    <!-- Bulles des différents Skills -->
+    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>div class="flex flex-row gap-4">
+    <!-- Bulles des différents Skills -->
+    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <!-- Bulles des différents Skills -->
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+        <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
+    </div>
+
+
+</main>
 
 
 
-<div class="flex flex-row gap-4">
-    <!-- Bulles des différents Skills -->
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-</div>
-<div class="flex flex-row gap-4">
-    <!-- Bulles des différents Skills -->
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-</div>
-<div class="flex flex-row gap-4">
-    <!-- Bulles des différents Skills -->
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-</div>
-<div class="flex flex-row gap-4">
-    <!-- Bulles des différents Skills -->
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-</div>
-<div class="flex flex-row gap-4">
-    <!-- Bulles des différents Skills -->
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-</div>
-<div class="flex flex-row gap-4">
-    <!-- Bulles des différents Skills -->
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-</div>
-<div class="flex flex-row gap-4">
-    <!-- Bulles des différents Skills -->
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-</div>
-<div class="flex flex-row gap-4">
-    <!-- Bulles des différents Skills -->
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-</div>
-<div class="flex flex-row gap-4">
-    <!-- Bulles des différents Skills -->
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-</div>
-<div class="flex flex-row gap-4">
-    <!-- Bulles des différents Skills -->
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-</div>
-<div class="flex flex-row gap-4">
-    <!-- Bulles des différents Skills -->
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-</div>
-<div class="flex flex-row gap-4">
-    <!-- Bulles des différents Skills -->
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-    <div class=" rounded-[50%] border border-blue-700 bg-blue-500 w-16 h-16"></div>
-</div>
+<
