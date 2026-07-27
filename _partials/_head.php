@@ -20,11 +20,17 @@
 
 <body class="relative flex flex-col px-4 bg-bg-page-tempo">
     <header class="fixed flex flex-row gap-32 items-center justify-between border border-border-header rounded-[50px] backdrop-blur-xl top-4 left-4 right-4 px-4 py-2">
-        <!-- Ici : photo de profil -->
-        <div class="flex flex-row gap-4 items-center ">
-            <img src="../assets/images/photo-temporaire.jpg" class="rounded-[50%] border-border-photo-profil w-14 h-14 hover:border-hover-cercle-profil border-2" alt="photo de profil">
-            <a href=""></a>
-            <p class="hidden text-nom-profil-header lg:flex">Morgan Gardès</p>
+        <!-- Conteneur du sonar -->
+        <div class="relative flex items-center justify-center">
+            <!-- Anneau du sonar -->
+            <div class="absolute inset-0 rounded-full border-2 border-hover-cercle-profil
+                animate-[sonar-pulse_2s_ease-out_infinite]"></div>
+            <!-- Photo de profil -->
+            <div class="flex flex-row gap-4 items-center ">
+                <img src="../assets/images/photo-temporaire.jpg" class="relative z-10 rounded-full border-border-photo-profil w-14 h-14 hover:border-hover-cercle-profil border-2" alt="photo de profil">
+                <a href=""></a>
+                <p class="hidden text-nom-profil-header lg:flex">Morgan Gardès</p>
+            </div>
         </div>
         <!-- Partie droite header version Mobile -->
         <nav class="flex lg:hidden flex-row gap-2">
@@ -41,7 +47,7 @@
             </div>
         </nav>
         <!-- Partie droite header version PC -->
-        <nav class="hidden lg:flex flex-row gap-2">
+        <nav class="hidden lg:flex flex-row gap-2 text-[20px]">
             <div>
                 <a class="text-gris-texte-header hover:text-bleu-texte-hover-header" href="">Profil</a>
             </div>
