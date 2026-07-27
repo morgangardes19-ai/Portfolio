@@ -24,6 +24,8 @@
     --color-bg-page-tempo: #021823;
     --color-nom-profil-header: #bde6eb;
     --color-border-header: #114758;
+    --color-border-photo-profil: #0f6274;
+    --color-hover-cercle-profil: #5fe6f8;
   }
 }
 @layer base {
@@ -196,14 +198,8 @@
   .top-16\.5 {
     top: calc(var(--spacing) * 16.5);
   }
-  .-right-1 {
-    right: calc(var(--spacing) * -1);
-  }
   .-right-4 {
     right: calc(var(--spacing) * -4);
-  }
-  .right-1 {
-    right: var(--spacing);
   }
   .right-4 {
     right: calc(var(--spacing) * 4);
@@ -223,20 +219,14 @@
   .table {
     display: table;
   }
-  .h-8 {
-    height: calc(var(--spacing) * 8);
-  }
-  .h-10 {
-    height: calc(var(--spacing) * 10);
+  .h-14 {
+    height: calc(var(--spacing) * 14);
   }
   .h-16 {
     height: calc(var(--spacing) * 16);
   }
-  .w-8 {
-    width: calc(var(--spacing) * 8);
-  }
-  .w-10 {
-    width: calc(var(--spacing) * 10);
+  .w-14 {
+    width: calc(var(--spacing) * 14);
   }
   .w-16 {
     width: calc(var(--spacing) * 16);
@@ -288,14 +278,26 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .border-blue-500 {
-    border-color: var(--color-blue-500);
+  .border-2 {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
+  .border-\[2px\] {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
+  .border-\[3px\] {
+    border-style: var(--tw-border-style);
+    border-width: 3px;
   }
   .border-blue-700 {
     border-color: var(--color-blue-700);
   }
   .border-border-header {
     border-color: var(--color-border-header);
+  }
+  .border-border-photo-profil {
+    border-color: var(--color-border-photo-profil);
   }
   .bg-bg-page-tempo {
     background-color: var(--color-bg-page-tempo);
@@ -318,14 +320,8 @@
   .px-16 {
     padding-inline: calc(var(--spacing) * 16);
   }
-  .py-1 {
-    padding-block: var(--spacing);
-  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
-  }
-  .py-4 {
-    padding-block: calc(var(--spacing) * 4);
   }
   .py-14 {
     padding-block: calc(var(--spacing) * 14);
@@ -378,6 +374,12 @@
     transition-duration: 300ms;
   }
   @media (hover: hover) {
+    .hover\:border-bleu-texte-hover-header:hover {
+      border-color: var(--color-bleu-texte-hover-header);
+    }
+    .hover\:border-hover-cercle-profil:hover {
+      border-color: var(--color-hover-cercle-profil);
+    }
     .hover\:text-bleu-texte-hover-header:hover {
       color: var(--color-bleu-texte-hover-header);
     }

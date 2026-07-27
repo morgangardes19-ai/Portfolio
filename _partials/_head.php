@@ -22,12 +22,12 @@
     <header class="fixed flex flex-row gap-32 items-center justify-between border border-border-header rounded-[50px] backdrop-blur-xl top-4 left-4 right-4 px-4 py-2">
         <!-- Ici : photo de profil -->
         <div class="flex flex-row gap-4 items-center ">
-            <img src="../assets/images/photo-temporaire.jpg" class="rounded-[50%] border border-blue-500 w-10 h-10" alt="photo de profil">
+            <img src="../assets/images/photo-temporaire.jpg" class="rounded-[50%] border-border-photo-profil w-14 h-14 hover:border-hover-cercle-profil border-2" alt="photo de profil">
             <a href=""></a>
             <p class="hidden text-nom-profil-header lg:flex">Morgan Gardès</p>
         </div>
         <!-- Partie droite header version Mobile -->
-        <nav class="flex lg:hidden flex-row gap-2 ">
+        <nav class="flex lg:hidden flex-row gap-2">
             <img id="logo-burger" src="../assets/images/menu-burger.png" alt="menu hamburger">
             <div id="overlay-burger" class="fixed transition-all duration-300 translate-x-full top-16.5 -right-4 flex flex-col items-center gap-6 px-16 py-14 text-boutons-header text-[16px] inter-regular bg-black/80 rounded-md tracking-[10%] text-center">
                 <img id="croix-menu-burger" class="absolute top-6 right-6" src="../assets/images/croix-32px.png" alt="logo croix">
