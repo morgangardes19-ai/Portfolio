@@ -14,7 +14,8 @@
     <script src="../assets/scripts/skills-bubbles.js" defer></script>
     <script src="../assets/scripts/overlay-menu-burger-mobile.js" defer></script>
 
-    <link rel="icon" href="../assets/images/bulles-favicon-32px.png">
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/images/favicon-bulles-origine-32px.png">
 
     <!-- Polices -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +23,7 @@
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
-<body class="bg-bg-page-tempo text-white">
+<body class="bg-bleu-des-profondeurs">
 
     <!-- Canvas Bulles de fond -->
     <canvas id="bubble-canvas" class="fixed inset-0 pointer-events-none" style="z-index: 0;" aria-hidden="true"></canvas>
@@ -40,9 +41,9 @@
     </div>
 
     <!-- Header -->
-    <header id="header" class="fixed top-0 left-0 right-0 z-40 transition-all duration-300 py-3 md:py-5">
+    <header class="fixed top-4 left-4 right-4 z-40 py-2 md:py-3 border border-cyan-mer-sombre rounded-[50px] backdrop-blur-xl">
         <div class="mx-auto max-w-7xl px-4 md:px-8">
-            <div class="flex items-center justify-between rounded-full px-3 md:px-5 py-2.5 transition-all duration-300 bg-transparent">
+            <div class="flex items-center justify-between rounded-full px-3 md:px-5 py-2.5 bg-transparent">
 
                 <!-- Profil avec sonar -->
                 <button data-section="profil" class="nav-link flex items-center gap-3 group cursor-pointer">
@@ -61,21 +62,17 @@
                 <!-- Navigation Mobile : Burger -->
                 <nav class="flex lg:hidden items-center gap-1">
                     <button id="logo-burger" class="text-cyan-300 p-2 cursor-pointer">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M4 6h16M4 12h16M4 18h16"/>
-                        </svg>
+                        <img src="../assets/images/logo-menu-hamburger-32px.png" alt="menu hamburger">
                     </button>
                     <!-- Overlay burger -->
-                    <div id="overlay-burger" class="fixed transition-all duration-300 translate-x-full top-16 right-4 left-4 flex flex-col items-center gap-6 px-16 py-14 bg-black/95 rounded-2xl border border-cyan-400/20 text-center z-50">
+                    <div id="overlay-burger" class="fixed transition-all duration-300 translate-x-full top-30 -right-4 left-0 flex flex-col items-center gap-6 px-16 py-14 bg-black/95 rounded-2xl border border-cyan-400/20 text-center z-50">
                         <button id="croix-menu-burger" class="absolute top-6 right-6 text-cyan-300 cursor-pointer">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M18 6L6 18M6 6l12 12"/>
-                            </svg>
+                         <img class="w-6 h-auto" src="../assets/images/logo-croix-32px.png" alt="Fermer le menu">
                         </button>
-                        <button data-section="profil" class="nav-link text-gris-texte-header hover:text-bleu-texte-hover-header font-mono text-sm">Profil</button>
-                        <button data-section="competences" class="nav-link text-gris-texte-header hover:text-bleu-texte-hover-header font-mono text-sm">Compétences</button>
-                        <button data-section="projets" class="nav-link text-gris-texte-header hover:text-bleu-texte-hover-header font-mono text-sm">Projets</button>
-                        <button data-section="contact" class="nav-link text-gris-texte-header hover:text-bleu-texte-hover-header font-mono text-sm">Contact</button>
+                        <button data-section="profil" class="nav-link text-slate-300 hover:text-cyan-200 font-mono text-sm">Profil</button>
+                        <button data-section="competences" class="nav-link text-slate-300 hover:text-cyan-200 font-mono text-sm">Compétences</button>
+                        <button data-section="projets" class="nav-link  text-slate-300 hover:text-cyan-200 font-mono text-sm">Projets</button>
+                        <button data-section="contact" class="nav-link  text-slate-300 hover:text-cyan-200 font-mono text-sm">Contact</button>
                     </div>
                 </nav>
 

@@ -6,9 +6,11 @@ overlayLogoBurger.addEventListener("click", handleClickOnLogoBurger);
 overlayLogoCroixMenuMobile.addEventListener("click", handeClickOnLogoCroixMobile);
 
 function handleClickOnLogoBurger () {
-    overlayBurger.classList.remove("translate-x-full");
+    overlayBurger.classList.remove("translate-x-full", "-right-4");
+    overlayBurger.classList.add("right-0");
 }
 
 function handeClickOnLogoCroixMobile () {
-    overlayBurger.classList.add("translate-x-full")
+    overlayBurger.classList.add("translate-x-full", "-right-4");
+    overlayBurger.classList.remove("right-0");
 }

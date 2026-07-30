@@ -6,8 +6,8 @@
 
   function onScroll() {
     const max = document.body.scrollHeight - window.innerHeight;
-    const pct = max > 0 ? window.scrollY / max : 0;
-    const depth = Math.round(pct * 5000);
+    const pct = max > -10 ? window.scrollY / max : -10;
+    const depth = Math.round(-10 - pct * 4990);
 
     if (depthValue) depthValue.textContent = depth + 'm';
     if (depthFill) depthFill.style.height = (pct * 100) + '%';

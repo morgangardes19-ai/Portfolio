@@ -1,14 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bleu-texte-click-header: #5BDCEE;
-  --color-gris-texte-header: #bfc8d6;
-  --color-bleu-texte-hover-header: #a2f4fd;
-  --color-bg-page-tempo: #021823;
-  --color-nom-profil-header: #bde6eb;
-  --color-border-header: #114758;
-  --color-border-photo-profil: #0f6274;
-  --color-hover-cercle-profil: #5fe6f8;
+  --color-bleu-des-profondeurs: #021823;
+  --color-cyan-mer: #4edef1;
+  --color-cyan-mer-sombre: #0197af;
+  
 }
 
 @layer utilities {
@@ -90,28 +86,31 @@
 /* Particules d'explosion */
 @keyframes particle-fly {
   0% {
-    transform: translate(0, 0) scale(1);
+    transform: translate(-50%, -50%) scale(1);
     opacity: 1;
   }
   100% {
-    transform: translate(calc(cos(var(--angle)) * var(--dist)), calc(sin(var(--angle)) * var(--dist))) scale(0.5);
+    transform: translate(calc(-50% + cos(var(--angle)) * var(--dist)),
+                         calc(-50% + sin(var(--angle)) * var(--dist))) scale(0.5);
     opacity: 0;
   }
 }
 
 @keyframes ring-expand {
-  0% {
-    transform: scale(0);
+0% {
+    transform: translate(-50%, -50%) scale(0);
     opacity: 1;
   }
   100% {
-    transform: scale(1.5);
+    transform: translate(-50%, -50%) scale(1.5);
     opacity: 0;
   }
 }
 
 .particle {
   position: absolute;
+  top: 50%;
+  left: 50%;
   font-family: "JetBrains Mono", monospace;
   font-size: 0.75rem;
   color: #5fe6f8;
@@ -120,6 +119,9 @@
 
 .particle-ring {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
