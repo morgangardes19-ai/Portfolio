@@ -40,7 +40,7 @@
     </div>
 
     <!-- Header -->
-    <header class="fixed top-4 left-4 right-4 z-40 py-2 md:py-3 border border-cyan-mer-sombre rounded-[50px] backdrop-blur-xl">
+    <header id="header" class="fixed top-4 left-4 right-4 z-40 py-2 md:py-3 border border-cyan-mer-sombre rounded-[50px] backdrop-blur-xl">
         <div class="mx-auto max-w-7xl px-4 md:px-8">
             <div class="flex items-center justify-between rounded-full px-3 md:px-5 py-2.5 bg-transparent">
 
