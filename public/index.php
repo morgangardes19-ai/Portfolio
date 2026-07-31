@@ -118,7 +118,7 @@
             [
                 'title' => 'Mini Chat',
                 'desc' => 'Mini canal de discussion qui requiert une inscription, sur le thème "détective".',
-                'tags' => ['HTML', 'Tailwind', 'PHP', 'JavaScript'],
+                'tags' => ['HTML', 'Tailwind', 'PHP', 'JavaScript', 'SQL'],
                 'img' => '../assets/gifs/gif-projet-minichat.gif',
             ],
             [
@@ -129,9 +129,15 @@
             ],
             [
                 'title' => 'Drumpad',
-                'desc' => 'Drumpad qui permet d\'enregistrer et de rejouer des notes.',
+                'desc' => 'Outil permettant d\'enregistrer et de rejouer des notes.',
                 'tags' => ['HTML', 'CSS', 'JavaScript'],
                 'img' => '../assets/gifs/gif-drumpad.gif',
+            ],
+            [
+                'title' => 'W.',
+                'desc' => 'Site en responsive.',
+                'tags' => ['HTML', 'Tailwind'],
+                'img' => '../assets/gifs/gif-w-avec-tailwind.gif',
             ],
         ];
         foreach ($projects as $index => $project):

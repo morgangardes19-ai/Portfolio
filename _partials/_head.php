@@ -8,7 +8,6 @@
 
     <!-- Scripts -->
     <script src="../assets/scripts/bubble-background.js" defer></script>
-    <script src="../assets/scripts/header-scroll.js" defer></script>
     <script src="../assets/scripts/depth-indicator.js" defer></script>
     <script src="../assets/scripts/scroll-animations.js" defer></script>
     <script src="../assets/scripts/skills-bubbles.js" defer></script>
