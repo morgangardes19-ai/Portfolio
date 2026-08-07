@@ -15,7 +15,7 @@
 
         <p data-animate data-delay="0.2"
             class="font-mono text-cyan-300 text-lg mb-8 tracking-wide translate-x-8 opacity-0 transition-all duration-500">
-            &gt; Développeur Web
+            &gt; Développeur web et web mobile
         </p>
 
         <div data-animate data-delay="0.3"
@@ -45,23 +45,21 @@
 <!-- SECTION 2 : COMPÉTENCES / SKILLS -->
 <section id="competences" class="relative px-6 md:px-20 py-32">
     <div class="text-center mb-16">
-        <p class="font-mono text-sm text-cyan-400/70 mb-2">// 02</p>
         <h2 class="font-mono text-3xl md:text-5xl font-bold text-white uppercase tracking-wider">
             Compétences
         </h2>
     </div>
 
-    <!-- Bouton CV -->
     <div class="flex justify-center mb-20">
-        <a href="#"
+        <a href="../assets/documents/cv-morgan-gardes-stage-dwwm.pdf" target="blank"
             class="group relative inline-flex items-center gap-3 px-8 py-4 rounded-full border border-cyan-400/50 bg-cyan-400/5 hover:bg-cyan-400/15 transition-colors">
-            <!-- Icône Download SVG -->
-            <svg class="w-5 h-5 text-cyan-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                <polyline points="7 10 12 15 17 10" />
-                <line x1="12" y1="15" x2="12" y2="3" />
+            <!-- Icône ouvrir -->
+            <svg class="w-4 h-4 text-cyan-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                <polyline points="15 3 21 3 21 9" />
+                <line x1="10" y1="14" x2="21" y2="3" />
             </svg>
-            <span class="font-mono text-sm text-cyan-100 tracking-wide">Télécharger mon CV</span>
+            <span class="font-mono text-sm text-cyan-100 tracking-wide">Ouvrir mon CV</span>
             <span class="absolute inset-0 rounded-full border border-cyan-400/30 animate-ping opacity-25"></span>
         </a>
     </div>
@@ -97,16 +95,11 @@
             </div>
         <?php endforeach; ?>
     </div>
-
-    <p class="text-center mt-12 text-xs text-slate-500 font-mono">
-        // Cliquez sur une bulle pour la faire éclater
-    </p>
 </section>
 
 <!-- SECTION 3 : PROJETS -->
 <section id="projets" class="relative px-6 md:px-20 py-32">
     <div class="text-center mb-16">
-        <p class="font-mono text-sm text-cyan-400/70 mb-2">// 03</p>
         <h2 class="font-mono text-3xl md:text-5xl font-bold text-white uppercase tracking-wider">
             Projets
         </h2>
@@ -175,7 +168,6 @@
 <!-- SECTION 4 : CONTACT -->
 <section id="contact" class="relative px-6 md:px-20 py-32">
     <div class="text-center mb-16">
-        <p class="font-mono text-sm text-cyan-400/70 mb-2">// 04</p>
         <h2 class="font-mono text-3xl md:text-5xl font-bold text-white uppercase tracking-wider">
             Contact
         </h2>
